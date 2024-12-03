@@ -1,0 +1,130 @@
+/* Global Styles */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    /* Light background */
+    color: #333;
+    /* Text color */
+}
+
+.page-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+/* Header */
+
+.page-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.page-header h1 {
+    font-size: 2.5rem;
+    color: #000;
+    /* Black text for header */
+    margin-bottom: 10px;
+}
+
+.page-header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+
+/* Table Styles */
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.table th,
+.table td {
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #000;
+    /* Black header */
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+    /* Light alternate rows */
+}
+
+.table-bordered {
+    border: 2px solid #ccc;
+}
+
+
+/* Faculties Table Inside Institutes */
+
+.faculties-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.faculties-table th,
+.faculties-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #000;
+    /* Black button */
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #333;
+    /* Darker black/gray for hover */
+}
+
+
+/* Text Muted */
+
+.text-muted {
+    color: #6c757d;
+    font-style: italic;
+}
+
+
+/* Layout and Spacing */
+
+.content-wrapper {
+    padding: 20px;
+}

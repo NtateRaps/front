@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    /* Background image */
+    background: url(background.gif) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    /* Ensure full-screen height */
+    color: #fff;
+    /* Adjust text color for visibility */
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.hero-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    margin: 0.5em 0;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin: 1em 0;
+    line-height: 1.5;
+}
+
+.cta-buttons {
+    margin: 20px 0;
+}
+
+.cta-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-buttons .explore-now {
+    background: #000;
+    color: #fff;
+}
+
+.cta-buttons .learn-more {
+    background: #fff;
+    color: #000;
+    border: 2px solid #000;
+}

@@ -1,0 +1,964 @@
+.applications-container {
+  padding: 20px;
+}
+
+.application-form {
+  margin-bottom: 20px;
+}
+
+.application-form input {
+  margin-right: 10px;
+  padding: 8px;
+}
+
+.applications-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.applications-table th,
+.applications-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.approve-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.reject-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.approve-button:hover,
+.reject-button:hover {
+  opacity: 0.8;
+}
+
+
+.faculty-item {
+  margin-bottom: 10px;
+}
+
+.courses-button {
+  margin-top: 5px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.courses-button:hover {
+  background-color: #0056b3;
+}
+
+
+.courses-container {
+  padding: 20px;
+}
+
+.faculties-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.faculty-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  width: 300px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faculty-card h3 {
+  margin-bottom: 10px;
+}
+
+.faculty-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.faculty-card li {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.add-course-form {
+  margin-bottom: 20px;
+}
+
+.add-course-form input,
+.add-course-form select,
+.add-course-form button {
+  margin-right: 10px;
+  padding: 8px;
+}
+
+
+/* formStyles.css */
+
+.form-container {
+  display: flex;
+  justify-content: center; /* Center the form horizontally */
+  align-items: center; /* Center vertically if needed */
+  margin: 40px auto; /* Add margin for spacing */
+  padding: 20px; /* Padding around the container */
+  background-color: #ffffff; /* White background for contrast */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  width: 400px; /* Fixed width for the form container */
+}
+
+.add-institute-form {
+  display: flex;
+  flex-direction: column; /* Stack inputs vertically */
+}
+
+.add-institute-form h3 {
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.add-institute-form input {
+  margin-bottom: 15px; /* Space between inputs */
+  padding: 10px; /* Padding inside inputs */
+  border: 2px solid #007BFF; /* Border color */
+  border-radius: 4px; /* Rounded corners for inputs */
+}
+
+.add-institute-form input:focus {
+  border-color: #0056b3; /* Change border color on focus */
+}
+
+.add-institute-form button {
+  padding: 10px;
+  background-color: #007BFF; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 4px; /* Rounded corners for button */
+  cursor: pointer;
+}
+
+.add-institute-form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Container for the search bar */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0; /* Space around the container */
+  padding: 10px;
+  background-color: #f5f5f5; /* Light background for contrast */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the search bar input */
+.search-bar {
+  width: 100%; /* Full width inside the container */
+  max-width: 400px; /* Limit the size for responsiveness */
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+/* Change border color on focus */
+.search-bar:focus {
+  border-color: #007bff; /* Primary highlight color */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+/* Nav.css */
+.navigation-menu {
+  margin-left: 350px;
+  display: flex;
+  justify-content: center; /* Centers the menu horizontally */
+  align-items: center; /* Vertically centers items */
+  padding: 10px 20px; 
+}
+
+.navigation-menu a {
+  color: white; /* Make the text white */
+  text-decoration: none; /* Remove underline */
+  margin: 0 60px; /* Space between links */
+  font-size: 1em; /* Slightly larger font for better readability */
+  transition: color 0.3s ease; /* Smooth color change on hover */
+}
+
+.navigation-menu a:hover {
+  color: #00bcd4; /* Change color on hover */
+}
+
+.navigation-menu a:active {
+  color: #ff5722; /* Highlight active link */
+}
+
+
+
+/* Home.css */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  /* Background image */
+  background: url(background.gif) no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  /* Ensure full-screen height */
+  color: #fff;
+  /* Adjust text color for visibility */
+}
+
+
+.home-container .hero-section {
+  text-align: center;
+  margin-top: 380px;
+}
+
+.home-container .hero-section h1 {
+  font-size: 3em;
+  margin: 0.5em 0;
+}
+
+.home-container .hero-section p {
+  font-size: 1.2em;
+  margin: 1em 0;
+  line-height: 1.5;
+}
+
+.home-container .cta-buttons {
+  margin: 20px 0;
+}
+
+.home-container .cta-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.home-container .cta-buttons .explore-now {
+  background: #007bff;
+  color: #fff;
+}
+
+.home-container .cta-buttons .learn-more {
+  background: #007bff;
+  color: #fff;
+}
+
+
+
+
+
+/* Institutes Section */
+.institutes-container {
+    margin: 30px;
+    font-family: 'Arial', sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; /* Space around the container */
+    padding: 10px;
+    background-color: #f5f5f5; /* Light background for contrast */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .institutes-header {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .institutes-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .institutes-table th, .institutes-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .institutes-table th {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .institutes-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .institutes-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .faculties-table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+  }
+  
+  .faculties-table th, .faculties-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .faculties-table th {
+    background-color: #f4f4f4;
+    color: #555;
+  }
+  
+  .faculties-table tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
+  .no-courses, .no-faculties {
+    color: #777;
+    font-style: italic;
+  }
+  
+  .applications-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .applications-link:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+/* cardStyles.css */
+
+.institutes-container1 {
+  display: flex;
+  
+  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  justify-content: center; /* Center cards in the container */
+  margin: 20px; /* Margin around the container */
+}
+
+.institute-card {
+  
+  background-color: #ffffff; /* White background for cards */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  margin: 10px; /* Space between cards */
+  padding: 20px; /* Padding inside cards */
+  width: calc(30% - 40px); /* Width of each card, adjust as needed */
+  box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.institute-card h3 {
+  margin-top: 0; /* Remove top margin from heading */
+}
+
+.faculties-list {
+  margin-top: 10px; /* Space above faculties list */
+}
+
+.faculty-item {
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+
+.courses-button,
+.add-faculty-button,
+.delete-button {
+  margin-left: 10px; /* Space between buttons */
+  padding: 6px 12px; /* Padding for buttons */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.courses-button {
+  background-color: #28a745; /* Green button for courses */
+  color: white;
+}
+
+.courses-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.add-faculty-button {
+  background-color: #007BFF; /* Blue button for adding faculty */
+  color: white;
+}
+
+.add-faculty-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.delete-button {
+  background-color: #dc3545; /* Red button for delete action */
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+.no-institutes {
+  text-align: center; /* Center text in empty state */
+}
+
+  
+  @media (max-width: 768px) {
+    .institutes-table, .faculties-table {
+      font-size: 14px;
+      
+    }
+  
+    .institutes-container {
+      margin: 10px;
+    }
+  
+    .institutes-header {
+      font-size: 1.5rem;
+    }
+  
+    .applications-link {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  }
+  
+
+
+
+
+
+
+/* App.css */
+
+/* Users Component Styling */
+.users-container {
+    padding: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .users-container h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .users-container .error-message {
+    color: #dc3545;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .users-container button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .users-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .users-container .add-user-toggle {
+    background-color: #28a745;
+  }
+  
+  .users-container .add-user-toggle:hover {
+    background-color: #218838;
+  }
+  
+  .users-container .add-user-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .users-container .input-field {
+    padding: 12px;
+    margin: 8px 0;
+    width: 100%;
+    max-width: 400px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .users-container .submit-button {
+    background-color: #007bff;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .users-container .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .users-container .loading {
+    text-align: center;
+    font-size: 18px;
+    color: #007bff;
+  }
+  
+  .users-container .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+  }
+  
+  .users-container .user-table th,
+  .users-container .user-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .users-container .user-table th {
+    background-color: #f8f9fa;
+  }
+  
+  .users-container .user-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .users-container .delete-button {
+    padding: 8px 16px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .users-container .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  @media (max-width: 768px) {
+    .users-container {
+      padding: 15px;
+    }
+  
+    .users-container .user-table th,
+    .users-container .user-table td {
+      padding: 8px;
+    }
+  }
+  
+
+
+
+
+/* Scoped Styles for SignUp Component */
+.signup-container {
+    width: 100%;
+    max-width: 500px; /* Form width */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px; /* Optimal padding for balance */
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box; /* Ensures padding doesn't affect the overall width */
+  }
+  
+  .input-field:focus {
+    border-color: #007bff;
+  }
+  
+  .user-type {
+    margin-top: 15px;
+  }
+  
+  .radio-buttons label {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .auth-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .auth-button:focus {
+    outline: none;
+  }
+  
+
+
+
+
+/* Scoped styles for the Login component */
+
+.login-container {
+    max-width: 400px;
+    width: 100%;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+  }
+  
+  .login-title {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-group {
+    margin-bottom: 1.2rem;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-group input[type="email"],
+  .input-group input[type="password"],
+  .input-group select {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    transition: border-color 0.3s;
+  }
+  
+  .input-group input[type="email"]:focus,
+  .input-group input[type="password"]:focus,
+  .input-group select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .auth-button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .auth-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .auth-button:focus {
+    outline: none;
+    background-color: #0056b3;
+  }
+  
+  .auth-button:active {
+    background-color: #004085;
+  }
+  
+  /* Styling for the signup prompt in the Login component */
+  .signup-prompt {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #555;
+    text-align: center;
+  }
+  
+  .signup-prompt p {
+    margin: 0;
+  }
+  
+  .signup-prompt a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .signup-prompt a:hover {
+    color: #0056b3;
+  }
+  
+
+
+
+
+
+/* General Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to left, #1d5d9b 50%, #ffffff 50%); /* 50% on the left side is #1d5d9b */
+/* Dark text for contrast */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+
+  flex-direction: column; /* Stack the sections vertically */
+  height: 100vh; /* Full height of the viewport */
+}
+
+
+.background-image {
+  width: 600px; /* Set image width */
+  height: 400px; /* Set image height */
+  /* Add left margin to the image */
+}
+
+.home {
+
+  display: flex;
+  flex-direction: column;
+   /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  color: black;
+ 
+  padding-right: 800px;
+}
+
+
+/* Header Styles */
+
+/* Button Container */
+.button-container {
+  margin-left: 630px;
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between the buttons */
+}
+
+/* Individual Buttons */
+.button-container button {
+  padding: 8px 18px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px; /* Same width for both buttons */
+}
+
+/* Login Button */
+.login-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+/* SignUp Button */
+.signup-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.signup-button:hover {
+  background-color: #0056b3;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px; 
+  color: #1d5d9b;
+  background: linear-gradient(to left, #1d5d9b 50%, #ffffff 50%);
+}
+
+
+
+#logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial; 
+  color: #1d5d9b;
+  height: 40px;
+  padding-left: 270px;
+}
+
+.header .contact-info {
+   font-size :14px; 
+   color :#1d5d9b; 
+}
+
+.header .links {
+   display :flex; 
+   gap :20px; 
+}
+
+.header .links a {
+   color :#ffffff; 
+   text-decoration :none; 
+   font-size :16px; 
+   transition :color .3s ease; 
+}
+
+.header .links a:hover {
+   color :#ffcc00; 
+}
+
+/* Main Title and Subtitle */
+
+.main-title {
+   text-align:center; 
+   font-size :40px; 
+   font-weight:bold; 
+   margin-top :40px; 
+   color :#ffffff; 
+}
+
+.subtitle {
+   text-align:center; 
+   font-size :16px; 
+   margin-top :10px; 
+   color :#cccccc; 
+}
+
+/* Card Container and Cards */
+
+.card-container {
+   display:flex; 
+   flex-wrap :wrap; 
+   gap :20px; 
+   justify-content:center; 
+   margin-top :30px; 
+   width :80%; 
+   margin :40px auto; 
+}
+
+.card {
+   flex :1; 
+   max-width :300px; 
+   padding :20px; 
+   border-radius :10px; 
+   color :#1a1a1a; /* Dark text on light card backgrounds */ 
+   cursor:pointer; 
+   transition :transform .2s ease; 
+   text-align:center; 
+   font-weight:bold; 
+}
+
+/* Individual Card Colors */
+
+.card-1 { background-color:#ffb7ff;} /* Soft pink */
+
+.card-2 { background-color:#ccff66;} /* Light green */
+
+.card-3 { background-color:#ffe066;} /* Soft yellow */
+
+.card-4 { background-color:#e6e6e6;} /* Light gray */
+
+.card:hover { transform :scale(1.05); }
+
+.card-title { font-size :18px; font-weight:bold; margin-bottom :10px;color:#1a1a1a;}
+
+.card-description { font-size :14px;color:#333;}
+
+.footer { margin-top :40px;padding :20px;text-align:center;background-color:#333333;color:#ffffff;}
+
+.footer p {font-size :14px;color:#999999;}
